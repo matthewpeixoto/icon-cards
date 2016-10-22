@@ -313,6 +313,10 @@ svg.img-flex {
   visibility: hidden;
 }
 
+.chop {
+  overflow: hidden;
+}
+
 .truncate {
   max-width: 100%;
   overflow: hidden;
@@ -461,6 +465,18 @@ svg.img-flex {
   width: 100%;
 }
 
+.height-quarter, .h-1-4 {
+  height: 25%;
+}
+
+.height-half, .h-1-2 {
+  height: 50%;
+}
+
+.height-full, .h-1 {
+  height: 100%;
+}
+
 ul {
   list-style-type: none;
 }
@@ -501,7 +517,7 @@ ol > li::before {
 .btn {
   cursor: pointer;
   display: inline-block;
-  padding: .2em .75em .3em;
+  padding: .375em .75em .42em;
   background-color: #333;
   border-radius: 8px;
   border: 3px solid #333;
@@ -687,6 +703,7 @@ label {
 }
 
 textarea {
+  max-width: 100%;
   min-height: 4em;
   overflow: auto;
 }
